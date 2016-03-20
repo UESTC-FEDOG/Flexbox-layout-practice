@@ -5,7 +5,7 @@ body {
 
 .contain {
 	display: flex;
-	height: 300px
+	height: 300px;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
@@ -16,31 +16,22 @@ body {
 .contain > div {
 	box-sizing: border-box;
 	width: 150px;
-	height: 120px;
 	border: 1px solid #f00;
 }
 
-.contain > div:nth-child(2) {
+.contain div:first-child {
+	height: 120px;
+}
+
+.contain  div:nth-child(2) {
 	height: 100px;
 }
 
-.contain > div:nth-child(3) {
+.contain  div:nth-child(3) {
 	height: 40px;
 }
 
-.contain >div:last-child {
+.contain div:last-child {
 	height: 200px;
 	border: 1px solid #0f0;
-}
-
-@media  all  and(max-width: 640px) {
-.contain {
-	/*justify-content: space-around;
-	align-items: flex-start;
-	flex-wrap: wrap;*/
-	background-color: black;
-}
-/*.contain >div:last-child {
-	order: -1;
-}*/
 }
