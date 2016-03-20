@@ -1,0 +1,47 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.contain {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contain > div {
+	width: 150px;
+	height: 120px;
+	padding: 20px;
+	border: 1px solid #f00;
+}
+
+.contain > div:nth-child(2) {
+	height: 100px;
+}
+
+.contain > div:nth-child(3) {
+	height: 40px;
+}
+
+.contain >div:last-child {
+	height: 200px;
+	border: 1px solid #0f0;
+}
+
+@media  screen  and(max-width: 640px) {
+.contain {
+	display: block;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.contain >div:last-child {
+	order: -1;
+}
+}
