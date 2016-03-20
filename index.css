@@ -34,7 +34,7 @@ html,body {
 	border: 1px solid #0f0;
 }
 
-@media  screen  and(max-width: 640px) {
+@media  all  and(max-width: 640px) {
 .contain {
 	display: block;
 	justify-content: space-around;
