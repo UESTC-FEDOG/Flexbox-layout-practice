@@ -5,10 +5,12 @@ body {
 
 .contain {
 	display: flex;
+	height: 300px
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
 	flex-wrap: wrap;
+	border: 1px solid black;
 }
 
 .contain > div {
@@ -33,11 +35,12 @@ body {
 
 @media  all  and(max-width: 640px) {
 .contain {
-	justify-content: space-around;
+	/*justify-content: space-around;
 	align-items: flex-start;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
+	background-color: black;
 }
-.contain >div:last-child {
+/*.contain >div:last-child {
 	order: -1;
-}
+}*/
 }
