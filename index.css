@@ -1,21 +1,18 @@
-html,body {
-	height: 100%;
-	box-sizing: border-box;
+body {
 	margin: 0;
 	padding: 0;
 }
 
 .contain {
-	width: 100%;
-	height: 400px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px;
+	padding: 20px;
 	flex-wrap: wrap;
 }
 
 .contain > div {
+	box-sizing: border-box;
 	width: 150px;
 	height: 120px;
 	border: 1px solid #f00;
@@ -29,12 +26,12 @@ html,body {
 	height: 40px;
 }
 
-/*.contain >div:last-child {
+.contain >div:last-child {
 	height: 200px;
 	border: 1px solid #0f0;
-}*/
+}
 
-/*@media  all  and(max-width: 640px) {
+@media  all  and(max-width: 640px) {
 .contain {
 	justify-content: space-around;
 	align-items: flex-start;
@@ -43,4 +40,4 @@ html,body {
 .contain >div:last-child {
 	order: -1;
 }
-}*/
+}
