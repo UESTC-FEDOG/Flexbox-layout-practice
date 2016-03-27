@@ -1,5 +1,5 @@
 
-div.contanier{
+.contanier{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -27,7 +27,7 @@ div.contanier{
 }
 @media screen and (max-width: 640px){
 	.contanier{
-	align-iterms: flex-start;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	}
 	*[class~="4"]{
