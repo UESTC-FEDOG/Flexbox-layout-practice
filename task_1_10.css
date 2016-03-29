@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 640px){
 	.contanier{
-	align-iterms: flex-start;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	}
 	*[class~="4"]{
